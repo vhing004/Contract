@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+<!-- Signature -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<div class="sigPad">
+  <h1>Vui lòng viết chữ ký xuống đây ! </h1>
+  <canvas width="600px" height="400px"></canvas>
+  <div class="foot">
+    <input type="submit" class="clearButton" value="Clear"/>
+    <!-- <a href="#" data-role="button" data-inline="true" onclick="showSig()">Show Signature Json</a> -->
+    <a href="#" data-role="button" data-inline="true" onclick="sig2Img()">Signature to Image</a>
+    <a href="#" data-role="button" data-inline="true" onclick="downloadImg()">Download to Image</a>
+    <a href="javascript:;" onclick="undoDraw(this)">Undo</a>
+  </div>
+</div>
+<div id="message"></div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

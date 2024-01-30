@@ -1,0 +1,22 @@
+.footer{
+    &_inner{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+.signature{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    &-img{
+        width: 200px;
+    }
+    & p{
+        margin-bottom: 20px;
+    }
+}
